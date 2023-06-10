@@ -1,0 +1,41 @@
+.table{
+    margin: auto;
+}
+.filas{
+    width: 13%;
+    height: 30px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 2px !important;
+    margin: 0 !important;
+}
+.filas1{
+    width: 20% !important;
+    height: 30px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 2px !important;
+    margin: 0 !important;
+}
+.button-delete{
+    margin-left: 3%;
+    background-color: #e91109;
+    color: white;
+    
+}
+.div-btn-agregar{
+    height: 50px;
+    background-color: rgb(205, 231, 231);
+    display: flex;
+  }
+  .section-title{
+    margin-left: 10%;
+    font-weight:900;
+    color: #131111;
+  }
+  .section-title-btn{
+    margin-left: 30%;
+  }
+  .txt-register-nacim{
+    margin-top: 17px;
+  }

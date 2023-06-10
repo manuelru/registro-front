@@ -1,0 +1,78 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+  }
+  
+  .modal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal label,
+  .modal input,
+  .modal textarea {
+    margin-bottom: 10px;
+  }
+  
+  .modal input,
+  .modal textarea {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .modal button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .modal button[type='submit'] {
+    background-color: #28a745;
+  }
+  
+  .open-modal-btn {
+    padding: 10px 20px;
+    border-radius: 13px;
+    background-color: #76aae2;
+    color: #131111;
+    border: 0;
+    margin-top: 5px;
+    font-weight:900;
+    
+
+   
+  }
+  .open-modal-btn:hover {
+    color: aliceblue;
+    opacity: 0.6;
+  }
+  .titleFormNacimiento{
+    text-align: center;
+  }
+  .close-modal-btn{
+    margin-left: 40%;
+    margin-top: 5px;
+  }

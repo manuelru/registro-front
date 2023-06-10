@@ -1,0 +1,28 @@
+.menu {
+    background-color: #48a7e6;
+  }
+  
+  .menu-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+  }
+  
+  .menu-item {
+    margin-right: 10px;
+    margin: auto;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    font-weight:900;
+  }
+  
+  .menu-link:hover {
+    color: #f4fafa;
+  }
+
